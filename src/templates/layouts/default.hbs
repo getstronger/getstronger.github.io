@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{> head}}
+  </head>
+  <body>
+    <!-- Navbar 
+    ================================================== -->
+    {{> gtm}}
+
+    <!-- Navbar 
+    ================================================== -->
+    {{!-- {{> navbar-fixed-top }} --}}
+
+
+    <!-- Subhead
+    ================================================== -->
+    <header class="masthead subhead">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xs-12">
+            <h1> {{ uppercase title }} </h1>
+            <h2> {{ lead }} </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page content
+    ================================================== -->
+
+      {{> body }}
+
+  {{> script}}
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "generator-assemble": {
+    "projectName": "getstronger",
+    "githubUser": "bradstrong",
+    "installPlugin": true,
+    "author": {
+      "name": "bradstrong",
+      "login": "assemble",
+      "email": "bradcstrong@gmail.com"
+    },
+    "plugin": [
+      "assemble-contrib-anchors",
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap",
+      "assemble-contrib-toc"
+    ]
+  }
+}

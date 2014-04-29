@@ -1,0 +1,52 @@
+{
+  "name": "getstronger",
+  "description": "Assemble a website from templates and data.",
+  "version": "0.1.0",
+  "homepage": "http://assemble.io",
+  "author": {
+    "name": "bradstrong",
+    "url": "http://github.com/bradstrong/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bradstrong/getstronger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradstrong/getstronger/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.22",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.1.1",
+    "grunt-csscomb": "~2.0.1",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-autoprefixer": "~0.7.2",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-concat": "~0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bradstrong/getstronger/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt"
+  ]
+}
